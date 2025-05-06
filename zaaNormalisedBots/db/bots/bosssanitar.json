@@ -1,0 +1,50 @@
+{
+	"inventory": {
+		"equipment": {
+			"Headwear": {
+				"5a7c4850e899ef00150be885": 1,
+				"5aa7cfc0e5b5b00015693143": 1,
+				"5aa7e276e5b5b000171d0647": 1,
+				"5b40e1525acfc4771e1c6611": 1,
+				"5b40e2bc5acfc40016388216": 1,
+				"5aa7e454e5b5b0214e506fa2": 1,
+				"5aa7e4a4e5b5b000137b76f2": 1,
+				"5c091a4e0db834001d5addc8": 1,
+				"5f60c74e3b85f6263c145586": 1
+			},
+			"ArmorVest": {
+				"5fd4c474dd870108a754b241": 1
+			},
+			"TacticalVest": {
+				"5e4ac41886f77406a511c9a8": 1,
+				"5c0e746986f7741453628fe5": 1,
+				"5fd4c60f875c30179f5d04c2": 1,
+				"603648ff5a45383c122086ac": 1,
+				"6040dd4ddcf9592f401632d2": 1,
+				"5ca20abf86f77418567a43f2": 1
+			}
+		},
+		"mods": {
+			"5aa7e454e5b5b0214e506fa2": {
+				"mod_equipment": [
+					"5aa7e3abe5b5b000171d064d"
+				]
+			},
+			"5aa7e4a4e5b5b000137b76f2": {
+				"mod_equipment": [
+					"5aa7e3abe5b5b000171d064d"
+				]
+			}
+		}
+	},
+	"chances": {
+		"equipment": {
+			"Headwear": 80,
+			"ArmorVest": 70,
+			"TacticalVest": 100
+		},
+		"mods": {
+			"mod_equipment": 60
+		}
+	}
+}

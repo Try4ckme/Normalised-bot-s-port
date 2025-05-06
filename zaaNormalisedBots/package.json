@@ -1,0 +1,8 @@
+{
+    "name": "Normalised Bots",
+    "author": "JustNU",
+    "version": "1.2.0",
+    "license": "Unlicense",
+    "main": "src/mod.js",
+	"akiVersion": "3.7.*"
+}

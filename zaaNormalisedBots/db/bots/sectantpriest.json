@@ -1,0 +1,26 @@
+{
+	"inventory": {
+		"equipment": {
+			"ArmorVest": {
+				"5f5f41476bdad616ad46d631": 1,
+				"5e4abb5086f77406975c9342": 1,
+				"609e8540d5c319764c2bc2e9": 1,
+				"5fd4c474dd870108a754b241": 1
+			},
+			"TacticalVest": {
+				"5ca20abf86f77418567a43f2": 1,
+				"5f5f41f56760b4138443b352": 1,
+				"5648a69d4bdc2ded0b8b457b": 1,
+				"603648ff5a45383c122086ac": 1,
+				"5c0e9f2c86f77432297fe0a3": 1,
+				"5df8a42886f77412640e2e75": 1
+			}
+		}
+	},
+	"chances": {
+		"equipment": {
+			"ArmorVest": 100,
+			"TacticalVest": 100
+		}
+	}
+}
