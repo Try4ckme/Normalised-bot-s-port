@@ -1,8 +1,11 @@
 {
-    "name": "Normalised Bots",
+    "name": "!Normalised Bots",
     "author": "JustNU",
-    "version": "1.2.0",
+    "version": "1.33.7",
     "license": "Unlicense",
     "main": "src/mod.js",
-	"akiVersion": "3.7.*"
+    "sptVersion": "3.11",
+	"devDependencies": {
+	
+	}
 }

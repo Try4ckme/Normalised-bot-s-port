@@ -6,14 +6,13 @@ class Mod {
 		const logger = container.resolve("WinstonLogger");
 		const jsonUtil = container.resolve("JsonUtil");
 		const modPath = __dirname.split("\\").slice(0, -1).join("\\");
-		const VFS = container.resolve("VFS");
+		const fs = require("fs");
 		const database = container.resolve("DatabaseServer").getTables();
 		const dbBots = database.bots.types;
 		
 		const config = require("../config/config.json");
 		
 		let botSettings = {};
-		
 		for (const botType in dbBots) {
 			// get the config values to each bot
 			botSettings[botType] = jsonUtil.clone(config.MainSettings);
@@ -90,7 +89,8 @@ class Mod {
 				const inv = dbBots[botType].inventory;
 				const chances = dbBots[botType].chances;
 				
-				if (VFS.exists(`${modPath}\\db\\bots\\${botType}.json`)) {
+				if (fs.existsSync(`${modPath}\\db\\bots\\${botType}.json`)) 
+				{
 					const botFile = require(`${modPath}\\db\\bots\\${botType}.json`);
 					
 					// add gear
